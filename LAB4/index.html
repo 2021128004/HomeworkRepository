@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type = "text/css" href="main.css">
+    <title>LAB3_index</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="main_head">
+            <h1>
+                <span class="sliding">인프밍 영화 정보 사이트입니다.</span>
+            </h1>
+            <nav class="menu">
+                <span class="highlight">메인페이지</span>
+                <a href="./login.html">로그인</a>
+                <a href="./signup.html">회원가입</a>
+            </nav>
+        </div>
+
+        <div class="searchBar">
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="영화 키워드를 입력하세요"
+                autocomplete="off"
+            />
+            <button id="searchButton">filter</button>
+        </div>
+
+        <h4>Movies</h4>
+
+        <div class="container">
+            <div class="sorter">
+                
+                <span class="h10">정렬 기준</span>
+                
+                <div class="sorter_item">
+                    <input
+                        type="radio"
+                        id="sort-name-down"
+                        name="sort"
+                        value="name_down"
+                    />
+                    <label for="sort-name-down">이름 내림차순</label>
+                </div>
+
+                <div class="sorter_item">
+                    <input
+                        type="radio"
+                        id="sort-name-up"
+                        name="sort"
+                        value="name_up"
+                    />
+                    <label for="sort-name-up">이름 올림차순</label>
+                </div>
+
+                <div class="sorter_item">
+                    <input
+                        type="radio"
+                        id="sort-open-down"
+                        name="sort"
+                        value="open_down"
+                    />
+                    <label for="sort-open-down">개봉일 내림차순</label>
+                </div>
+
+                <div class="sorter_item">
+                    <input
+                        type="radio"
+                        id="sort-open-up"
+                        name="sort"
+                        value="open_up"
+                    />
+                    <label for="sort-open-up">개봉일 올림차순</label>
+                </div>
+
+                <div class="sorter_item">
+                    <input
+                        type="radio"
+                        id="sort-vote-down"
+                        name="sort"
+                        value="vote_down"
+                    />
+                    <label for="sort-vote-down">평점 내림차순</label>
+                </div>
+
+                <div class="sorter_item">
+                    <input
+                        type="radio"
+                        id="sort-vote-up"
+                        name="sort"
+                        value="vote_up"
+                    />
+                    <label for="sort-vote-up">평점 올림차순</label>
+                </div>
+
+            </div>
+
+            <div class="movies">
+                <!-- <div class="movie">
+                    <div class="image-container">
+                        <div class="hidden">
+                            <p>Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive 
+                                toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, 
+                                Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.</p>
+                        </div>
+                        <img src="./toyStory2.png" alt="toy story 2" width="300" height="400">
+                    </div>
+                    <div class="info">
+                        <span class="h10" style="text-align: center;">Toy Story 2</span>
+                        <span class="h11" style="text-align: center;">1999-10-30</span>
+                        <span class="h11" style="text-align: center;">7.3</span>
+                    </div>
+                </div>
+
+                <div class="movie">
+                    <div class="image-container">
+                        <div class="hidden">
+                            Interstellar chronicles the adventures of a group of explorers who make use of a newly discovered wormhole to surpass 
+                            the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.
+                        </div>
+                        <img src="./interstella.png" alt="인터스텔라" width="300" height="400">
+                    </div>
+                    <div class="info">
+                        <span class="h10" style="text-align: center;">interstella</span>
+                        <span class="h11" style="text-align: center;">2014-11-05</span>
+                        <span class="h11" style="text-align: center;">8.1</span>
+                    </div>
+                </div> -->
+
+
+            </div>
+
+        </div>
+   
+    </div>
+
+
+
+
+
+
+    <script src="scroll.js"></script>
+</body>
+</html>
